@@ -15,7 +15,7 @@ const Usecase = () => {
                     <div className="card">
                         <div className="card-image">
                         <video  controls="" autoPlay loop muted className="video1">
-                <source src="assests\workshops.mp4" type="video/mp4" />
+                <source src="assets\workshops.mp4" type="video/mp4" />
             </video>
                         </div>
                         <h2 className="card-heading">Workshops</h2>
@@ -25,7 +25,7 @@ const Usecase = () => {
                     <div className="card">
                         <div className="card-image">
                         <video  controls="" autoPlay loop muted className="video1">
-                <source src="assests\meetings.mp4" type="video/mp4" />
+                <source src="assets\meetings.mp4" type="video/mp4" />
             </video>
                         </div>
                         <h2 className="card-heading">Meetings</h2>

@@ -1,6 +1,6 @@
 .usecase {
     width: 100%;
-    background: #001219;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
 .video1 {
@@ -12,7 +12,7 @@
 }
 
 .use-heading-box {
-    padding: 3rem 6rem;
+    padding: 6rem 7rem;
     font-size: 5rem;
     text-align: center;
     color: #fff;

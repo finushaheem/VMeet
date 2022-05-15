@@ -29,6 +29,9 @@ const Footer = () => {
           <p>KMCT College Of Engineering, Kallanthode</p>
           <p>NITC - P.O</p>
           <p>Kozhikode - 673601</p>
+
+          {/* <p className={classes.email}>finushaheem@gmail.com</p> */}
+      
         </div>
 
         <div className={`${classes.col} ${classes.links}`}>
@@ -85,7 +88,9 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <p className={classes.copyright}>
+
       Vmeet | Copyright &#169; All rights reserved.
+
       </p>
     </footer>
   );

@@ -34,9 +34,9 @@
 }
 
 .para {
-    color: #ccc;
+    color: rgb(244, 242, 242);
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .email {

@@ -16,7 +16,7 @@ const Usecase = () => {
                             <img src="" alt="/" />
                         </div>
                         <h2 className="card-heading">Workshops</h2>
-                        <p className="card-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt esse praesentium molestiae, ad vero ducimus. Harum alias doloremque ratione velit mollitia natus esse nulla, incidunt atque molestias autem aspernatur dolorum magnam asperiores non enim, aliquid quia, reprehenderit architecto? Enim, facilis!</p>
+                        <p className="card-para">Entering Vmeet's creative spaces will take your brainstorming sessions and workshops to new heights. Our various room arrangements will inspire your participants' inventiveness. Vmeet lets you to engage with tools and work as if you were in a real-life workshop, only better! Magic pointer, 3D pen, 3D models, upgraded whiteboards, and much more!</p>
                     </div>
 
                     <div className="card">
@@ -24,7 +24,7 @@ const Usecase = () => {
                             <img src="" alt="/" />
                         </div>
                         <h2 className="card-heading">Meetings</h2>
-                        <p className="card-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt esse praesentium molestiae, ad vero ducimus. Harum alias doloremque ratione velit mollitia natus esse nulla, incidunt atque molestias autem aspernatur dolorum magnam asperiores non enim, aliquid quia, reprehenderit architecto? Enim, facilis!</p>
+                        <p className="card-para">Do you miss face-to-face meetings? Do you want to get involved? Inside Vmeet, all distractions are removed, and you meet as if you were in real life. You have all of the required equipment to make your meetings more efficient, whether they are team meetings or customer meetings. Feel the 3D sound of the other participants, and finish your meetings with our unique virtual handshake.</p>
                     </div>
 
             </div>

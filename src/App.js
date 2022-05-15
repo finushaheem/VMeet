@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero"
 import Usecase from "./components/Usecase/Usecase";
 import Subscribe from "./components/Subscribe/Subscribe"
 import Footer from "./components/Footer/Footer"
+import Avatar from "./components/Avatar/Avatar";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Usecase />
+      <Avatar />
       <Subscribe />
       <Footer />
     </Fragment>

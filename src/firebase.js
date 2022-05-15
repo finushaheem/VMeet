@@ -1,14 +1,19 @@
 import { initializeApp } from "firebase/app";
-import {getAuth} from "firebase/auth"
-  
+import { getAuth } from "firebase/auth";
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCj7WaGG8dyFxNM6XUJLdtmv_iUofxqKNo",
-    authDomain: "vmeet-16eee.firebaseapp.com",
-    projectId: "vmeet-16eee",
-    storageBucket: "vmeet-16eee.appspot.com",
-    messagingSenderId: "15789307864",
-    appId: "1:15789307864:web:0874a60f1345e45653a4ad"
-  };
+  apiKey: "REACT_APP_FIREBASE_API_KEY",
+
+  authDomain: "REACT_APP_FIREBASE_AUTH_DOMAIN",
+
+  projectId: "REACT_APP_FIREBASE_PROJECT_ID",
+
+  storageBucket: "REACT_APP_FIREBASE_STORAGE_BUCKET",
+
+  messagingSenderId: "REACT_APP_FIREBASE_MESSAGING_SENDER_ID",
+
+  appId: "REACT_APP_FIREBASE_APP_ID",
+};
 
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app)
+export const auth = getAuth(app);

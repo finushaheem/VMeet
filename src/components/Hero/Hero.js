@@ -12,7 +12,7 @@ const Hero = () => {
             </div>
 
             <div className="herobox">
-                <h1 className="heading">THE FUTURE OF MEETINGS</h1>
+                <h1 className="heading">The Future of Meetings</h1>
                 <p className="heading-para">Vmeet is a virtual collaboration platform that allows you to have a life like social experience. Imagine a virtual extension of your workspace in which physical boundaries disappear.</p>
                 <button className="hero-btn">Get Started</button>
             </div>

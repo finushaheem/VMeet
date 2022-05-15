@@ -41,14 +41,14 @@ const Subscribe = () => {
 
                     <div className="subs-form">
                         <div className="sub-form-headingBox">
-                            <h3 className="sub-form-heading">Sign in to View</h3>
+                            <h3 className="sub-form-heading">Sign in</h3>
                         </div>
                         <form action="" className="form">
                             <input type="text" className="subs-input" placeholder="First Name" />
-                            <input type="text" className="subs-input" placeholder="Last Name" />
-                            <input type="email" className="subs-input" placeholder="Email" />
-                            <input type="password" className="subs-input" placeholder="Password" />
-                            <button>submit</button>
+                            <input type="text" className="subs-input l-input" placeholder="Last Name" />
+                            <input type="email" className="subs-input mail-input" placeholder="Email" />
+                            <input type="password" className="subs-input pass-input" placeholder="Password" />
+                            <button className="subbtn">submit</button>
                         </form>
                     </div>
 

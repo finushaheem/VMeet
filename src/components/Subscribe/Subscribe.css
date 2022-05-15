@@ -19,9 +19,9 @@
 
 .subs-content-box {
     position: absolute;
-    top: 30%;  
+    top: 40%;  
     left: 50%; 
-    padding: 4rem 6rem;
+    padding: 4rem 8rem;
 
     transform: translate(-50%, -50%);
     display: flex;
@@ -57,11 +57,42 @@
     font-size: 3rem;
     color: #fff;
     opacity: 90%;
+    font-weight: 300;
 }
 
 .form {
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
     padding: 3rem 5rem;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "fname name" "hello hello" "pass pass";
+}
+
+
+.subs-input {
+    grid-area: fname;
+}
+
+.l-input {
+    grid-area: name;
+}
+
+.mail-input {
+    grid-area: hello;
+}
+
+.pass-input {
+    grid-area: pass;
+}
+
+
+
+.subbtn {
+    border: 2px solid #fff;
+    margin-top: 2rem;
+    border-radius: 10rem;
+    background: transparent;
+    padding: 1rem 5rem;
+    color: #fff;
+    font-size: 2rem;
 }

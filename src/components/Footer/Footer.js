@@ -16,8 +16,8 @@ const Footer = () => {
         <div className={classes.col}>
           <img
             className={classes.karma}
-            src="/"
-            alt="Karma logo"
+            src="assets/logo-vmeet.png"
+            alt="Vmeet logo"
           />
           <p className={classes.para}>
             Annual national level techno managerial cultural extravaganza of the
@@ -40,70 +40,70 @@ const Footer = () => {
         <div className={`${classes.col} ${classes.links}`}>
           <h3>Links</h3>
           <ul>
-            <a
+            <span
               to="/#home"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>About</li>
-            </a>
+            </span>
 
-            <a
+            <span
               to="/#contact"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Contact us</li>
-            </a>
+            </span>
 
-            <a
+            <span
               href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Privacy policy</li>
-            </a>
+            </span>
 
-            <a
+            <span
               href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Terms and condition</li>
-            </a>
+            </span>
 
-            <a
+            <span
               href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Refund & Cancellation Policy</li>
-            </a>
+            </span>
 
-            <a
+            <span
               href="https://docs.google.com/document/d/1DVGB-PePPd7XCNW4LAJ6qBShudKzBJtuaAaiC6Q1DWY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Shipping Policy</li>
-            </a>
+            </span>
           </ul>
         </div>
 
         <div className={classes.col}>
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
-            <a href="https://instagram.com/karma.kmct">
+            <span href="https://instagram.com/karma.kmct">
               <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
-            </a>
-            <a href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
+            </span>
+            <span href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g">
               <FontAwesomeIcon className={classes.icons} icon={faYoutube} />
-            </a>
-            <a href="https://www.facebook.com/karma.kmct/">
+            </span>
+            <span href="https://www.facebook.com/karma.kmct/">
               <FontAwesomeIcon className={classes.icons} icon={faFacebook} />
-            </a>
+            </span>
           </div>
         </div>
       </div>

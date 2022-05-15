@@ -30,7 +30,11 @@ const Avatar = () => {
           </div>
         </div>
         <div className={classes.avatarBox}>
-          <img className={classes.avImg} src="assets/man.png" alt="man" />
+          <img
+            className={classes.avImg}
+            src="assets/Images/man.png"
+            alt="man"
+          />
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ const Usecase = () => {
           <div className="card">
             <div className="card-image">
               <video controls="" autoPlay loop muted className="video1">
-                <source src="assets\workshops.mp4" type="video/mp4" />
+                <source src="assets/workshops.mp4" type="video/mp4" />
               </video>
             </div>
             <h2 className="card-heading">Workshops</h2>
@@ -29,17 +29,17 @@ const Usecase = () => {
           <div className="card">
             <div className="card-image">
               <video controls="" autoPlay loop muted className="video1">
-                <source src="assets\meetings.mp4" type="video/mp4" />
+                <source src="assets/me.mp4" type="video/mp4" />
               </video>
             </div>
-            <h2 className="card-heading">Meetings</h2>
+            <h2 className="card-heading">Meeting</h2>
             <p className="card-para">
-              Do you miss face-to-face meetings? Do you want to get involved?
+              Do you miss face-to-face meeting? Do you want to get involved?
               Inside Vmeet, all distractions are removed, and you meet as if you
               were in real life. You have all of the required equipment to make
-              your meetings more efficient, whether they are team meetings or
-              customer meetings. Feel the 3D sound of the other participants,
-              and finish your meetings with our unique virtual handshake.
+              your meeting more efficient, whether they are team meeting or
+              customer meeting. Feel the 3D sound of the other participants, and
+              finish your meeting with our unique virtual handshake.
             </p>
           </div>
         </div>

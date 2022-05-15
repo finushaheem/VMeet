@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section>
       <div className="header">
-        <img src="assets/logo-vmeet.png" className="logo" alt="/" />
+        <img src="assets/vmeetlogo.png" className="logo" alt="/" />
       </div>
     </section>
   );

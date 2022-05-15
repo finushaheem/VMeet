@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={classes.vmeetlogo}>
           <img
             className={classes.karma}
-            src="assets/logo-vmeet.png"
+            src="assets/vmeetlogo.png"
             alt="Vmeet logo"
           />
           <p className={classes.para}>
@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <p className={classes.copyright}>
-        Vmeet | Copyright &#169; All rights reserved.
+        VMeet | Copyright &#169; All rights reserved.
       </p>
     </footer>
   );

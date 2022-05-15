@@ -5,7 +5,7 @@ const Subscribe = () => {
     <section className="subSection">
       <div className="subscribe">
         <div className="subs-img-box">
-          <img src="assets/Images/vr.png" alt="/" className="subs-image" />
+          <img src="assets/meetingvr.png" alt="/" className="subs-image" />
         </div>
         <div className="subs-content-box">
           <div className="subs-heading-box">

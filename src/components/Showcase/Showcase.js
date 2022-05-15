@@ -13,16 +13,16 @@ const Showcase = () => {
 
         <div className={classes.imageContainer}>
           <div className={classes.imageBox}>
-            <img src="assets/Picture1.jpg" alt="picture1" />
+            <img src="assets/Images/Picture1.jpg" alt="picture1" />
           </div>
           <div className={classes.imageBox}>
-            <img src="assets/Picture2.png" alt="picture1" />
+            <img src="assets/Images/Picture2.png" alt="picture1" />
           </div>
           <div className={classes.imageBox}>
-            <img src="assets/Picture3.png" alt="picture1" />
+            <img src="assets/Images/Picture3.png" alt="picture1" />
           </div>
           <div className={classes.imageBox}>
-            <img src="assets/Picture4.png" alt="picture1" />
+            <img src="assets/Images/Picture4.png" alt="picture1" />
           </div>
         </div>
       </div>

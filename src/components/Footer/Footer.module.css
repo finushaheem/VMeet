@@ -24,7 +24,6 @@
 }
 
 .karma {
-    padding-bottom: 2rem;
     width: 22rem;
 }
 
@@ -33,10 +32,15 @@
     margin-bottom: 4rem;
 }
 
+.vmeetlogo {
+    flex-basis: 25%;
+}
+
 .para {
-    color: #ccc;
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 27px;
+   
 }
 
 .email {

@@ -12,8 +12,8 @@ const Hero = () => {
             </div>
 
             <div className="herobox">
-                <h1 className="heading">VMeet</h1>
-                <p className="heading-para">Whether you want to meet with your team or with your customers, MeetinVR offers human interaction more intuitive and effective than in real life by creating a new reality, optimized for exceptional collaboration.</p>
+                <h1 className="heading">THE FUTURE OF MEETINGS</h1>
+                <p className="heading-para">Vmeet is a virtual collaboration platform that allows you to have a life like social experience. Imagine a virtual extension of your workspace in which physical boundaries disappear.</p>
                 <button className="hero-btn">Get Started</button>
             </div>
         </section>

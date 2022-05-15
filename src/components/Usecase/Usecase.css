@@ -3,6 +3,14 @@
     background: #001219;
 }
 
+.video1 {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 7px;
+
+}
+
 .use-heading-box {
     padding: 3rem 6rem;
     font-size: 5rem;
@@ -30,9 +38,10 @@
 }
 
 .card-image {
-    width: 30rem;
+    width: 50rem;
     height: 30rem;
-    background-color: red;
+    
+    
 }
 
 .card-heading {

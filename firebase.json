@@ -3,25 +3,15 @@
     "rules": "database.rules.json"
   },
   "emulators": {
+    "database": {
+      "port": 9000,
+      "host": "127.0.0.1"
+    },
     "hosting": {
       "port": 5033
     },
     "ui": {
       "enabled": true
     }
-  },
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
   }
 }

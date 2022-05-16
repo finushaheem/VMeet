@@ -5,9 +5,6 @@ import {
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-// import { HashLink } from "react-router-hash-link";
-// import Link from "react-scroll/modules/components/Link";
-// import Logo from "./header_logo.png"
 
 const Footer = () => {
   return (
@@ -16,11 +13,13 @@ const Footer = () => {
         <div className={classes.vmeetlogo}>
           <img
             className={classes.karma}
-            src="assets/logo-vmeet.png"
+            src="assets/vmeetlogo.png"
             alt="Vmeet logo"
           />
           <p className={classes.para}>
-          Meet, share and collaborate together in private 3D virtual spaces.
+
+            Meet, share and collaborate together in private 3D virtual spaces.
+
           </p>
         </div>
 
@@ -30,8 +29,6 @@ const Footer = () => {
           <p>NITC - P.O</p>
           <p>Kozhikode - 673601</p>
 
-          {/* <p className={classes.email}>finushaheem@gmail.com</p> */}
-      
         </div>
 
         <div className={`${classes.col} ${classes.links}`}>
@@ -43,14 +40,12 @@ const Footer = () => {
             >
               <li>About</li>
             </span>
-
             <span
               to="/#contact"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Contact us</li>
             </span>
-
             <span
               href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
               target="_blank"
@@ -59,7 +54,6 @@ const Footer = () => {
             >
               <li>Privacy policy</li>
             </span>
-
             <span
               href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
               target="_blank"
@@ -89,11 +83,10 @@ const Footer = () => {
       <hr className={classes.hr} />
       <p className={classes.copyright}>
 
-      Vmeet | Copyright &#169; All rights reserved.
+        VMeet | Copyright &#169; All rights reserved.
 
       </p>
     </footer>
   );
 };
-
 export default Footer;

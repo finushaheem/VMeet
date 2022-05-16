@@ -10,6 +10,7 @@ const Hero = () => {
         </video>
       </div>
 
+
       <div className="herobox">
         <h1 className="heading">The Future of Meetings</h1>
         <p className="heading-para">
@@ -23,3 +24,4 @@ const Hero = () => {
   );
 };
 export default Hero;
+

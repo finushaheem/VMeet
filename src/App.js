@@ -6,7 +6,9 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Footer from "./components/Footer/Footer";
 import Avatar from "./components/Avatar/Avatar";
 import Showcase from "./components/Showcase/Showcase";
+
 import Hero from "./components/Hero/Hero";
+
 
 function App() {
   return (

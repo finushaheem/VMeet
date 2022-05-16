@@ -17,7 +17,9 @@ const Footer = () => {
             alt="Vmeet logo"
           />
           <p className={classes.para}>
+
             Meet, share and collaborate together in private 3D virtual spaces.
+
           </p>
         </div>
 
@@ -26,6 +28,7 @@ const Footer = () => {
           <p>KMCT College Of Engineering, Kallanthode</p>
           <p>NITC - P.O</p>
           <p>Kozhikode - 673601</p>
+
         </div>
 
         <div className={`${classes.col} ${classes.links}`}>
@@ -79,7 +82,9 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <p className={classes.copyright}>
+
         VMeet | Copyright &#169; All rights reserved.
+
       </p>
     </footer>
   );

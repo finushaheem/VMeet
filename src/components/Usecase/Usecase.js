@@ -1,6 +1,7 @@
 import React from "react";
 
 const Usecase = () => {
+
   return (
     <section>
       <div className="usecase">
